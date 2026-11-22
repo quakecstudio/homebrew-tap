@@ -5,8 +5,8 @@
 # installer package's SHA-256 and writes the result to Casks/quakec-studio.rb in
 # quakecstudio/homebrew-tap, so a change is made in the editor, never in the tap.
 cask "quakec-studio" do
-  version "2026.11.1"
-  sha256 "e1e0a40783eb512660643eab874931d4c4a0aecd3eaa8649c7b0821ba60aea98"
+  version "2026.11.2"
+  sha256 "6e260044668511d3d050f0cbd4ab71972df2697b46349a7b7a84f256b54ef245"
 
   url "https://github.com/quakecstudio/editor/releases/download/v#{version}/quakec-studio-#{version}-macos-arm64.pkg"
   name "QuakeC Studio"
